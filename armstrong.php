@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>armstrong</title>
     <style>
-        
+        .container{
+ margin-left: 50%;
+        }
     </style>
 </head>
 <body>
