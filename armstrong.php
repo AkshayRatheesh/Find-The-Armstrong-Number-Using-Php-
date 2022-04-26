@@ -16,7 +16,7 @@
 
   <form method="post">  
  Enter the Number:  
-   <input type="number" name="number"> 
+   <input type="number" name="number" required> 
    <br> <br>
    <input type="submit" value="Submit">  
   </form>  
