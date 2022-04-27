@@ -6,9 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>armstrong</title>
     <style>
-        .container{
- margin-left: 50%;
-        }
+
     </style>
 </head>
 <body>
@@ -17,8 +15,8 @@
   <form method="post">  
  Enter the Number:  
    <input type="number" name="number" required> 
-   <br> <br>
-   <input type="submit" value="Submit">  
+   <br>
+   <input type="submit" value="Submit">  <br> 
   </form>  
 
 
@@ -44,7 +42,7 @@
   //if the entered number and $sum value matches then it is an armstrong number  
   if( $number == $sum )  
   {  
-   echo "Yes $number an Armstrong Number";  
+   echo "$number an Armstrong Number";  
   }else  
   {  
    echo "$number is not an Armstrong Number";  
